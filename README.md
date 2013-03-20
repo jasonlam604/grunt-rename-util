@@ -52,8 +52,9 @@ rename: {
 }
 ```
 
+## TODO
 
-
+ * Add support for renaming folder(s)
 
 ## Release History
 
