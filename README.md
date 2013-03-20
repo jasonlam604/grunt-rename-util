@@ -33,7 +33,8 @@ Default: false
 
 This overrides `grunt.file.delete` and `grunt.file.copy` from blocking of file. Use with caution.
 
-Behind the scenes rename actually uses grunt.file.copy and grunt.file.delete
+Behind the scenes rename actually uses grunt.file.copy and grunt.file.delete, only because grunt.file.rename
+does not exist in grunt version 0.4.0
 
 ### Usage Examples
 
