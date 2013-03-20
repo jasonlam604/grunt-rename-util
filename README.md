@@ -1,4 +1,4 @@
-grunt-contrib-rename - unofficial grunt plugin
+grunt-contrib-rename (unofficial grunt plugin)
 ===============================================
 
 ## Getting Started
