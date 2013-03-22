@@ -1,7 +1,7 @@
 grunt-contrib-rename (unofficial grunt plugin)
 ===============================================
-A convenient plugin but not necessary because you can just use 'copy' and 'delete' tasks in grunt.  Built
-this more to fiddle around with Grunt and to gain some knowledge howTo build a plugin for Grunt.
+A convenient plugin but not necessary because you can just use 'copy' and 'delete' tasks in Grunt.  Built
+this more to fiddle around with Grunt and to gain some knowledge HowTo build a plugin for Grunt.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.0`
