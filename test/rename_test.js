@@ -4,12 +4,17 @@ var grunt = require('grunt');
 
 exports.clean = {
 
-  renametest: function(test) {
+  rename_file_test: function(test) {
     test.expect(1);
+    var expected = grunt.file.exists('tmp/test/fixtures/file-renamed.txt');
+    test.equal(expected, true, 'File Should be Renamed');
+    test.done();
+  },
 
-    var expected = grunt.file.exists('tmp/file-original.txt');
-    test.equal(expected, false, 'should rename file using rename');
-
+  rename_folder_test: function(test) {
+    test.expect(1);
+    var expected = grunt.file.exists('tmp//test/fixtures/folder-renamed');
+    test.equal(expected, true, 'Folder Should be Renamed');
     test.done();
   },
   

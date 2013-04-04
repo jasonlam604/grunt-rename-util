@@ -6,6 +6,9 @@
  * Licensed under the MIT license.
  * https://github.com/jasonlam604/grunt-contrib-rename/blob/master/LICENSE-MIT
  */
+'use strict'; 
+ 
+var fs = require('fs');
 
 module.exports = function(grunt) {
 
@@ -20,25 +23,25 @@ module.exports = function(grunt) {
     this.files.forEach(function(filePair) {
 	
       filePair.src.forEach(function(src) {
-	  
-		if (!grunt.file.exists(String(filePair.src))) {
-          grunt.log.warn('Cannot rename non-existent file.');
-		} else {
-			if(filePair.src !== filePair.dest) {
-				try {
-					grunt.log.writeln('Renaming ' + filePair.src + ' -> ' + filePair.dest);
-					grunt.file.copy(filePair.src, filePair.dest, options);
-					grunt.file.delete(filePair.src, options);
-				} catch (e) {
-					grunt.log.error();
-					grunt.verbose.error(e);
-					grunt.fail.warn('Rename operation failed.');
-				}
-			} else {
-				grunt.log.warn('No renaming ' + filePair.src + ', same file name');
-			}
-		}
+			
+				if (!grunt.file.exists(String(filePair.src))) {
+          grunt.log.writeln('Cannot rename non-existent file.');
+				} else {
 		
+					if (fs.statSync(String(filePair.src)).isDirectory()) {
+						grunt.log.writeln('Renaming Directory ' + filePair.src + ' -> ' + filePair.dest);
+					} else {
+						grunt.log.writeln('Renaming File ' + filePair.src + ' -> ' + filePair.dest);
+					}	 
+					
+					fs.renameSync(String(filePair.src), String(filePair.dest), function (err) {
+						if (err) {					 
+							grunt.log.error();
+							grunt.verbose.error(e);
+							grunt.fail.warn('Rename operation failed.');
+						}
+					});						 
+				}		
       });
     });
   });

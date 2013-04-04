@@ -25,13 +25,22 @@ module.exports = function(grunt) {
     
     clean: ["tmp"],  
 	
-	rename: {
-		main: {
-			files: [
-				{src: ['tmp/file-original.txt'], dest: 'tmp/index-test-rename.html'},
-			]
-		}
-	},
+		copy: {
+			main: {
+				files: [
+					{src: ['test/fixtures/**'], dest: 'tmp/'}, // includes files in path and its subdirs
+				]
+			}
+		},
+	
+		rename: {
+			main: {
+				files: [
+					{src: ['tmp/test/fixtures/file-original.txt'], dest: 'tmp/test/fixtures/file-renamed.txt'},
+					{src: ['tmp/test/fixtures/folderorig'], dest: 'tmp//test/fixtures/folder-renamed'}
+				]
+			}
+		},
 
     // Unit tests.
     nodeunit: {
@@ -46,15 +55,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
   grunt.loadNpmTasks('grunt-contrib-internal');
-
-  // Setup a test helper to create some folders to clean.
-  grunt.registerTask('copy', 'Copy fixtures to a temp location.', function() {
-    grunt.file.copy('test/fixtures/file-original.txt', 'tmp/file-original.txt');
-  });
+	grunt.loadNpmTasks('grunt-contrib-copy');
+	grunt.loadNpmTasks('grunt-contrib-clean');
 
   // Whenever the 'test' task is run, first create some files to be cleaned,
   // then run this plugin's task(s), then test the result.
-  grunt.registerTask('test', ['copy', 'rename', 'nodeunit']);
+  grunt.registerTask('test', ['clean','copy', 'rename', 'nodeunit']);
    
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test', 'build-contrib']);
