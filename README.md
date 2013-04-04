@@ -48,7 +48,7 @@ Yes, rename can be used as move as well when the destination path is different f
 rename: {
   main: {
     files: [
-  		{src: ['path/to/file'], dest: 'path/to/file-renamed'},
+  		{src: ['path/to/[file or folder]'], dest: 'path/to/[file-renamed or folder-renamed]'},
 		]
   }
 }
