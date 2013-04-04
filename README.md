@@ -33,7 +33,7 @@ Task targets, files and options may be specified according to the grunt [Configu
 Type: `Boolean`  
 Default: false
 
-Behind scenes as of 0.0.2 use fs.renameSync
+Behind the scenes as of 0.0.2 use fs.renameSync
 
 ### Usage Examples
 
