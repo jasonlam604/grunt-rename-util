@@ -56,8 +56,10 @@ rename: {
 
 ## TODO
 
- * Add support for renaming folder(s)
+ * <strike>Add support for renaming folder(s)</strike>
+ * Add in Options (may not be necessary)
 
 ## Release History
 
+ * 2013-04-03   v0.0.2   Add support for folder renaming
  * 2013-03-19   v0.0.1   First release for grunt-contrib-rename 0.0.1
