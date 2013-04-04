@@ -33,10 +33,7 @@ Task targets, files and options may be specified according to the grunt [Configu
 Type: `Boolean`  
 Default: false
 
-This overrides `grunt.file.delete` and `grunt.file.copy` from blocking of file. Use with caution.
-
-Behind the scenes rename actually uses grunt.file.copy and grunt.file.delete, only because grunt.file.rename
-does not exist in grunt version 0.4.0
+Behind scenes as of 0.0.2 use fs.renameSync
 
 ### Usage Examples
 
