@@ -56,7 +56,6 @@ rename: {
 
 ## TODO
 
- * <s>Add support for renaming folder(s)</s>
  * Add in Options (may not be necessary)
 
 ## Release History
