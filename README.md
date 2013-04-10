@@ -29,9 +29,7 @@ Task targets, files and options may be specified according to the grunt [Configu
 *Due to the destructive nature of this task, always be cautious of the files you rename.*
 ### Options
 
-#### force
-Type: `Boolean`  
-Default: false
+No Options available yet as of 0.0.2
 
 Behind the scenes as of 0.0.2 use fs.renameSync
 
