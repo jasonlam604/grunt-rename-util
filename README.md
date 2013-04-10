@@ -31,6 +31,7 @@ Task targets, files and options may be specified according to the grunt [Configu
 
 No Options available yet as of 0.0.2
 
+### Extra Info
 Behind the scenes as of 0.0.2 use fs.renameSync
 
 ### Usage Examples
