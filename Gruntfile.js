@@ -46,6 +46,7 @@ module.exports = function(grunt) {
     nodeunit: {
       tests: ['test/*_test.js'],
     },
+		
   });
 
   // Actually load this plugin's task(s).
@@ -58,10 +59,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 
-  // Whenever the 'test' task is run, first create some files to be cleaned,
-  // then run this plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean','copy', 'rename', 'nodeunit']);
-   
-  // By default, lint and run all tests.
-  grunt.registerTask('default', ['jshint', 'test', 'build-contrib']);
+	grunt.registerTask('test', ['clean','copy', 'rename', 'nodeunit']);
+  grunt.registerTask('default', ['clean','copy', 'rename', 'nodeunit']);
 };
