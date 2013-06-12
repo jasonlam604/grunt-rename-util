@@ -17,5 +17,5 @@ exports.clean = {
     test.equal(expected, true, 'Folder Should be Renamed');
     test.done();
   },
-  
+
 };

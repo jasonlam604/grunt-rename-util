@@ -22,9 +22,9 @@ module.exports = function(grunt) {
         jshintrc: '.jshintrc'
       },
     },
-    
-    clean: ["tmp"],  
-	
+
+    clean: ["tmp"],
+
 		copy: {
 			main: {
 				files: [
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 				]
 			}
 		},
-	
+
 		rename: {
 			main: {
 				files: [
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
     nodeunit: {
       tests: ['test/*_test.js'],
     },
-		
+
   });
 
   // Actually load this plugin's task(s).
