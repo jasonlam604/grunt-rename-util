@@ -60,5 +60,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-clean');
 
 	grunt.registerTask('test', ['clean','copy', 'rename', 'nodeunit']);
-  grunt.registerTask('default', ['clean','copy', 'rename', 'nodeunit']);
+  grunt.registerTask('default', ['clean','jshint','copy', 'rename', 'nodeunit']);
 };
