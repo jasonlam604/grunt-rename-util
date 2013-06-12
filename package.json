@@ -1,7 +1,7 @@
 {
   "name": "grunt-contrib-rename",
   "description": "Rename files.",
-  "version": "0.0.2",  
+  "version": "0.0.3",  
   "homepage": "https://github.com/jasonlam604/grunt-contrib-rename",
   "author": {
     "name": "Jason Lam",
