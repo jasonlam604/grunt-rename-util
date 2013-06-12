@@ -1,4 +1,4 @@
-grunt-contrib-rename (unofficial grunt plugin)
+grunt-contrib-rename
 ===============================================
 A convenient plugin but not necessary because you can just use 'copy' and 'delete' tasks in Grunt.  Built
 this more to fiddle around with Grunt and to gain some knowledge HowTo build a plugin for Grunt.
@@ -57,6 +57,6 @@ rename: {
  * Add in Options (may not be necessary)
 
 ## Release History
-
+ * 2013-06-11   v0.0.3   Minor Fixes and added jslint checking
  * 2013-04-03   v0.0.2   Add support for folder renaming
  * 2013-03-19   v0.0.1   First release for grunt-contrib-rename 0.0.1
