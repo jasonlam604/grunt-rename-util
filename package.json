@@ -1,7 +1,7 @@
 {
   "name": "grunt-contrib-rename",
   "description": "Rename files.",
-  "version": "0.0.3",  
+  "version": "0.0.3",
   "homepage": "https://github.com/jasonlam604/grunt-contrib-rename",
   "author": {
     "name": "Jason Lam",
@@ -28,13 +28,13 @@
     "grunt-contrib-jshint": "~0.2.0",
     "grunt-contrib-nodeunit": "~0.1.2",
     "grunt-contrib-internal": "~0.4.2",
-		"grunt-contrib-copy": "~0.4.1",
-		"grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.0",
     "grunt": "~0.4.0",
-		"underscore": "~1.4.4"
+    "underscore": "~1.4.4"
   },
   "peerDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
     "gruntplugin"
