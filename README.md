@@ -6,7 +6,7 @@ this more to fiddle around with Grunt and to gain some knowledge HowTo build a p
 [![Build Status](https://travis-ci.org/jasonlam604/grunt-contrib-rename.png)](https://travis-ci.org/jasonlam604/grunt-contrib-rename)
 
 ## Getting Started
-This plugin requires Grunt `~0.4.0`
+This plugin requires Grunt `1.0.0`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -58,6 +58,7 @@ rename: {
  * Add in Options (may not be necessary)
 
 ## Release History
- * 2013-06-11   v0.0.3   Minor Fixes and added jslint checking
- * 2013-04-03   v0.0.2   Add support for folder renaming
- * 2013-03-19   v0.0.1   First release for grunt-contrib-rename 0.0.1
+ * 2017-04-29 v0.1.0   Merged dependency changes to support Grunt 1.0.0
+ * 2013-06-11 v0.0.3   Minor Fixes and added jslint checking
+ * 2013-04-03 v0.0.2   Add support for folder renaming
+ * 2013-03-19 v0.0.1   First release for grunt-contrib-rename 0.0.1
