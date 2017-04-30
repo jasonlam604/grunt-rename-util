@@ -69,7 +69,7 @@ rename: {
  * Add in Options (may not be necessary)
 
 ## Release History
- * 2017-04-30 v1.0.0   Minor Cleanup 
+ * 2017-04-30 v1.0.0   Cleanup and set to first Major Release
  * 2017-04-30 v0.3.0   Renamed from grunt-contrib-rename to grunt-rename-util
  * 2017-04-30 v0.2.0   Bumped peer and dev dependencies
  * 2017-04-29 v0.1.0   Merged dependency changes to support Grunt 1.0.0
