@@ -2,6 +2,14 @@ grunt-rename-util (previous known as grunt-contrib-rename)
 ===============================================
 
 ** Note Due to a community request plugin has been renamed to avoid confusion with the official plugin naming convention, sorry about breaking anyone's builds out there ** 
+ 
+ Due to the renaming of the package stats were reset, for people are interested if this plugin was used at all the stats 
+ on April 30, 2017 where:
+ 
+ * 132 downloads in the day
+ * 2718 downloads in the last week
+ * 11,975 downloads in the last month
+
 
 A convenient plugin but not necessary because you can just use 'copy' and 'delete' tasks in Grunt.  Built
 this more to fiddle around with Grunt and to gain some knowledge HowTo build a plugin for Grunt.
@@ -69,11 +77,3 @@ rename: {
  * 2013-04-03 v0.0.2   Add support for folder renaming
  * 2013-03-19 v0.0.1   First release for grunt-rename-util 0.0.1
  
- ## Old Download Stats
- 
- Due to the renaming of the package stats were reset, for people are interested if this plugin was used at all the stats 
- on April 30, 2017 where:
- 
- * 132 downloads in the day
- * 2718 downloads in the last week
- * 11,975 downloads in the last month
