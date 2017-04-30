@@ -1,20 +1,20 @@
 {
-  "name": "grunt-contrib-rename",
+  "name": "grunt-rename",
   "description": "Rename files.",
   "version": "0.2.0",  
-  "homepage": "https://github.com/jasonlam604/grunt-contrib-rename",
+  "homepage": "https://github.com/jasonlam604/grunt-rename",
   "author": {
     "name": "Jason Lam",
     "url": "http://www.jasonlam604.com/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonlam604/grunt-contrib-rename.git"
+    "url": "https://github.com/jasonlam604/grunt-rename.git"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jasonlam604/grunt-contrib-rename/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jasonlam604/grunt-rename/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
