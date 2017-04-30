@@ -70,10 +70,10 @@ rename: {
 
 ## Release History
  * 2017-04-30 v1.0.0   Cleanup and set to first Major Release
- * 2017-04-30 v0.3.0   Renamed from grunt-contrib-rename to grunt-rename-util
- * 2017-04-30 v0.2.0   Bumped peer and dev dependencies
- * 2017-04-29 v0.1.0   Merged dependency changes to support Grunt 1.0.0
- * 2013-06-11 v0.0.3   Minor Fixes and added jslint checking
- * 2013-04-03 v0.0.2   Add support for folder renaming
- * 2013-03-19 v0.0.1   First release for grunt-rename-util 0.0.1
+ * 2017-04-30 v0.3.0   Renamed from grunt-contrib-rename to grunt-rename-util
+ * 2017-04-30 v0.2.0   Bumped peer and dev dependencies
+ * 2017-04-29 v0.1.0   Merged dependency changes to support Grunt 1.0.0
+ * 2013-06-11 v0.0.3   Minor Fixes and added jslint checking
+ * 2013-04-03 v0.0.2   Add support for folder renaming
+ * 2013-03-19 v0.0.1   First release for grunt-rename-util 0.0.1
  
