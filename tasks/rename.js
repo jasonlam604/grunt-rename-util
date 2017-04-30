@@ -1,10 +1,10 @@
 /*
- * grunt-contrib-rename (unofficial)
- * https://github.com/jasonlam604/grunt-contrib-rename
+ * grunt-rename-util
+ * https://github.com/jasonlam604/grunt-rename-util
  *
  * Copyright (c) 2013 Jason Lam
  * Licensed under the MIT license.
- * https://github.com/jasonlam604/grunt-contrib-rename/blob/master/LICENSE-MIT
+ * https://github.com/jasonlam604/grunt-rename-util/blob/master/LICENSE-MIT
  */
 'use strict';
 
