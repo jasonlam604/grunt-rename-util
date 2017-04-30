@@ -1,7 +1,7 @@
 grunt-rename-util (previous known as grunt-contrib-rename)
 ===============================================
 
-** Note Due to a community request plugin has been renamed to avoid confusion with the official plugin naming convention, sorry about breaking anyones builds out there ** 
+** Note Due to a community request plugin has been renamed to avoid confusion with the official plugin naming convention, sorry about breaking anyone's builds out there ** 
 
 A convenient plugin but not necessary because you can just use 'copy' and 'delete' tasks in Grunt.  Built
 this more to fiddle around with Grunt and to gain some knowledge HowTo build a plugin for Grunt.
