@@ -1,6 +1,6 @@
 /*
- * grunt-contrib-rename
- * https://github.com/jasonlam604/grunt-contrib-rename
+ * grunt-rename-util
+ * https://github.com/jasonlam604/grunt-rename-util
  *
  * Copyright (c) 2013 Jason Lam, contributors
  * Licensed under the MIT license.
