@@ -61,8 +61,8 @@ rename: {
  * Add in Options (may not be necessary)
 
 ## Release History
- * 2017-04-30 v0.5.0   Minor Cleanup 
- * 2017-04-30 v0.3.0   Renamed from grunt-contrib-rename to grunt-rename-util (requested by a few people so it be confused as official plugin for grunt.  Probably gonna break few builds out there, sorry about that.
+ * 2017-04-30 v1.0.0   Minor Cleanup 
+ * 2017-04-30 v0.3.0   Renamed from grunt-contrib-rename to grunt-rename-util
  * 2017-04-30 v0.2.0   Bumped peer and dev dependencies
  * 2017-04-29 v0.1.0   Merged dependency changes to support Grunt 1.0.0
  * 2013-06-11 v0.0.3   Minor Fixes and added jslint checking
