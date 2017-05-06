@@ -38,8 +38,8 @@ module.exports = function(grunt) {
 				files: [
 					{src: ['tmp/test/fixtures/file-original.txt'], dest: 'tmp/test/fixtures/file-renamed.txt'},
 					{src: ['tmp/test/fixtures/folderorig'], dest: 'tmp//test/fixtures/folder-renamed'},
-					{src: ['tmp/test/fixtures/folder-with-subdir'], dest: 'tmp//test/fixtures/folder-with-subdir-renamed'},
-					{src: ['tmp/test/fixtures/folder-test-subdir-rename/subdir'], dest: 'tmp//test/fixtures/folder-test-subdir-rename/subdir-renamed'},
+					//{src: ['tmp/test/fixtures/folder-with-subdir'], dest: 'tmp//test/fixtures/folder-with-subdir-renamed'},
+					//{src: ['tmp/test/fixtures/folder-test-subdir-rename/subdir'], dest: 'tmp//test/fixtures/folder-test-subdir-rename/subdir-renamed'},
 				]
 			}
 		},

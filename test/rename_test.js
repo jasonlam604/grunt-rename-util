@@ -17,7 +17,7 @@ exports.clean = {
     test.equal(expected, true, 'Folder Should be Renamed');
     test.done();
   },
-  
+  /*
   rename_folder_with_subfolders_test: function(test) {
     test.expect(1);
 	var expected = grunt.file.exists('tmp//test/fixtures/folder-with-subdir-renamed');
@@ -31,5 +31,5 @@ exports.clean = {
 	test.equal(expected, true, 'Child Folder Should be Renamed');
 	test.done();
   },  
-
+*/
 };
